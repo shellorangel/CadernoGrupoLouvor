@@ -1,9 +1,13 @@
 package listalouvores.shello.cadernogrupolouvor;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
             "08 - O dia da vitória",
             "09 - Vim para adorar-te",
             "10 - Quando entrei neste lugar",
-            "11 - Restaura"
+            "11 - Deus El Shadai",
+            "12 - Restaura"
 
 
 
@@ -40,6 +45,45 @@ public class MainActivity extends AppCompatActivity {
         );
 
         ListaLouvores.setAdapter(adaptdador);
+        ListaLouvores.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                int indice=position;
+
+                if (indice == 0)
+                    startActivity(new Intent(MainActivity.this,QuandoChego.class));
+                    //Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+
+                if (indice == 1)
+                    //startActivity(new Intent(MainActivity.this,Louvor.class));
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice == 2)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice ==3)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice ==4)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice ==5)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice ==6)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice ==7)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice ==8)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice ==9)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                if (indice ==10)
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                else
+                    //String valorClicado= louvores[indice].toString();
+
+                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
-}
+
+    }
+
