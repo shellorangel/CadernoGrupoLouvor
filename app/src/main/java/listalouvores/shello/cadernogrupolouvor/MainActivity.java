@@ -53,15 +53,16 @@ public class MainActivity extends AppCompatActivity {
 
                 if (indice == 0)
                     startActivity(new Intent(MainActivity.this,QuandoChego.class));
-                    //Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+
 
                 if (indice == 1)
-                    //startActivity(new Intent(MainActivity.this,Louvor.class));
-                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this,MeuPaiQuerido.class));
+
                 if (indice == 2)
-                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this,dobroOsMeusJoelhos.class));
+
                 if (indice ==3)
-                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this,deixaQueOespiritoSanto.class));
                 if (indice ==4)
                     Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
                 if (indice ==5)

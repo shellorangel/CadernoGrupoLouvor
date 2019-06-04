@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".QuandoChego"></activity>
+        <activity android:name=".QuandoChego" />
+        <activity android:name=".MeuPaiQuerido" />
+        <activity android:name=".dobroOsMeusJoelhos" />
+        <activity android:name=".deixaQueOespiritoSanto" />
+        <activity android:name=".SenteDeusEstaPresente"></activity>
     </application>
 
 </manifest>
