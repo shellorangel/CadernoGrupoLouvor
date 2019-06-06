@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".QuandoChego">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Tua graça me basta A Tua graça me sustenta Senhor Quando sinto que a luta começa me desanimar Clamo ao Senhor e digo: Que a Tua graça me basta "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:text="                           Coro"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f45c5c"
+                android:text="Obrigado Senhor por me sustentar. Obrigado Senhor sem Ti não saberia caminhar Tua força me auxilia Teu espírito me guia E me diz meu servo levanta e continue a caminhar "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eu sou contigo filho na jornada até o fim Não desista se espinhos no caminho te ferir Derramo sobre ti meu óleo pra tuas feridas sarar Lhe abraço com carinho e te faço lembrar Que a minha graça te basta "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eu sou contigo filho na jornada até o fim Não desista se espinhos no caminho te ferir Derramo sobre ti meu óleo pra tuas feridas sarar Lhe abraço com carinho e te faço lembrar Que a minha graça te basta "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
+                android:text="                           Instrumental"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:text="                           Coro sem instrumentos"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Porque a minha graça te basta."
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -64,9 +64,9 @@ public class MainActivity extends AppCompatActivity {
                 if (indice ==3)
                     startActivity(new Intent(MainActivity.this,deixaQueOespiritoSanto.class));
                 if (indice ==4)
-                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this,SenteDeusEstaPresente.class));
                 if (indice ==5)
-                    Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this,aTuaGracaMeBasta.class));
                 if (indice ==6)
                     Toast.makeText(getApplicationContext(),"Sem categoria",Toast.LENGTH_SHORT).show();
                 if (indice ==7)

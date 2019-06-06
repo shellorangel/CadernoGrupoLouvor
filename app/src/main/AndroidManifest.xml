@@ -20,7 +20,8 @@
         <activity android:name=".MeuPaiQuerido" />
         <activity android:name=".dobroOsMeusJoelhos" />
         <activity android:name=".deixaQueOespiritoSanto" />
-        <activity android:name=".SenteDeusEstaPresente"></activity>
+        <activity android:name=".SenteDeusEstaPresente" />
+        <activity android:name=".aTuaGracaMeBasta"></activity>
     </application>
 
 </manifest>
